@@ -1,0 +1,6 @@
+2. Case Study Analysis
+Article: AI in DevOps: Automating Deployment Pipelines
+Answer:
+AIOps improves software deployment efficiency by automating routine tasks, detecting anomalies, and predicting failures, leading to faster and more reliable releases.
+Example 1: Automated root cause analysis reduces downtime by quickly identifying deployment issues.
+Example 2: Predictive scaling automatically adjusts resources during deployment, preventing bottlenecks and ensuring smooth rollouts.

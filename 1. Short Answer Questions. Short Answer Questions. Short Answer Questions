@@ -1,0 +1,10 @@
+1. Short Answer Questions
+Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?
+Answer:
+AI-driven code generation tools like GitHub Copilot reduce development time by providing real-time code suggestions, auto-completing functions, and generating boilerplate code. This accelerates coding, reduces repetitive tasks, and helps developers focus on complex logic. However, their limitations include potential generation of incorrect or insecure code, lack of context awareness, and reliance on training data, which may introduce biases or outdated practices.
+Q2: Compare supervised and unsupervised learning in the context of automated bug detection.
+Answer:
+Supervised learning uses labeled data (e.g., code labeled as buggy or clean) to train models to detect bugs, offering high accuracy when quality labels are available. Unsupervised learning, in contrast, identifies anomalies or patterns in unlabeled code, potentially discovering unknown bug types but with less precision. Supervised methods excel in known bug detection, while unsupervised methods are useful for novel or rare bugs.
+Q3: Why is bias mitigation critical when using AI for user experience personalization?
+Answer:
+Bias mitigation is critical because AI models can perpetuate or amplify existing biases in training data, leading to unfair or discriminatory user experiences. In personalization, this may result in certain groups receiving less relevant or lower-quality recommendations, impacting user satisfaction and trust. Ensuring fairness promotes inclusivity and compliance with ethical standards.
