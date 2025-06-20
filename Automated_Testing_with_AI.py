@@ -1,16 +1,16 @@
 from selenium import webdriver
 
 driver = webdriver.Chrome()
-driver.get("http://example.com/login")
+driver.get("https://app.pictory.ai/v2/login")
 
 # Valid credentials
-driver.find_element_by_id("username").send_keys("valid_user")
-driver.find_element_by_id("password").send_keys("valid_pass")
+driver.find_element_by_id("mjb247@gmail.com").send_keys("valid_user")
+driver.find_element_by_id("").send_keys("valid_pass")
 driver.find_element_by_id("login").click()
 assert "Dashboard" in driver.page_source
 
 # Invalid credentials
-driver.get("http://example.com/login")
+driver.get("https://app.pictory.ai/v2/login")
 driver.find_element_by_id("username").send_keys("invalid_user")
 driver.find_element_by_id("password").send_keys("invalid_pass")
 driver.find_element_by_id("login").click()
